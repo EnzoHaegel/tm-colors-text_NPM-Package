@@ -31,3 +31,9 @@ For example:
 $FFF : White
 
 [`Here is a list of all colors possible`](https://borderleft.com/toolbox/hex/)
+
+# Update
+If you have idea of possible update in this package, please send me a message.
+
+# Bug / contact
+You can report bugs in the issues or contact me at [`EnzoHaegel`](http://github.com/EnzoHaegel)
