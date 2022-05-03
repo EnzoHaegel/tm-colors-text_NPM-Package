@@ -1,24 +1,39 @@
-# NgColoredTmText
+# Description
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+It's a package for [`Angular`](https://angular.io/) application, a component in Typescript.
+If you want the package in javascript, you can use [`tm-colors-text`](https://www.npmjs.com/package/@icenore/tm-colors-text).
 
-## Code scaffolding
+This package print a text with good colors, police and shadow with a trackmania given text.
 
-Run `ng generate component component-name --project ng-colored-tm-text` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ng-colored-tm-text`.
-> Note: Don't forget to add `--project ng-colored-tm-text` or else it will be added to the default project in your `angular.json` file. 
+# Installation
 
-## Build
+```bash
+$ npm i --save ng-colored-tm-text
+```
 
-Run `ng build ng-colored-tm-text` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Usage
 
-## Publishing
+## Import
 
-After building your library with `ng build ng-colored-tm-text`, go to the dist folder `cd dist/ng-colored-tm-text` and run `npm publish`.
+in app.module.ts
+```ts
+import { NgColoredTmTextModule } from 'ng-colored-tm-text';
 
-## Running unit tests
+@NgModule({
+  declarations: [
+    AppComponent,
+  ],
+  imports: [
+    NgColoredTmTextModule
+  ]
+```
 
-Run `ng test ng-colored-tm-text` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Implementation
 
-## Further help
+in your html of any component
+```html
+<lib-ng-colored-tm-text text="string" fontSize="number"></lib-ng-colored-tm-text>
+```
+You can't use it without text attribute.
+Default fontSize is 18px, put any number but it will be converted to px.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
