@@ -1,0 +1,38 @@
+{
+  "name": "@icenore/ng-tm-colors-text",
+  "version": "1.1.1",
+  "description": "A program that take a Trackmania text with $ code and return a style for every chars",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "Trackmania",
+    "Text",
+    "Colors",
+    "Style"
+  ],
+  "author": "poseydon989",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2",
+    "ts-jest": "^27.1.4",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.6.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "files": [
+    "lib/**/*"
+  ]
+}
