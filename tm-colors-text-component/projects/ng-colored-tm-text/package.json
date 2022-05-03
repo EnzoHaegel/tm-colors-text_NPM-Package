@@ -1,0 +1,12 @@
+{
+  "name": "ng-colored-tm-text",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^13.3.0",
+    "@angular/core": "^13.3.0",
+    "@icenore/ng-tm-colors-text": "^1.1.1"
+  },
+  "allowedNonPeerDependencies": [
+    "@icenore/ng-tm-colors-text"
+  ]
+}

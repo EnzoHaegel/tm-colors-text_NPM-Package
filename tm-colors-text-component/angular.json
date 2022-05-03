@@ -1,0 +1,42 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "b8a5bfa3-541e-41e5-bc57-38ff2838e5d2"
+  },
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "ng-colored-tm-text": {
+      "projectType": "library",
+      "root": "projects/ng-colored-tm-text",
+      "sourceRoot": "projects/ng-colored-tm-text/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ng-colored-tm-text/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-colored-tm-text/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ng-colored-tm-text/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-colored-tm-text/src/test.ts",
+            "tsConfig": "projects/ng-colored-tm-text/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-colored-tm-text/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ng-colored-tm-text"
+}

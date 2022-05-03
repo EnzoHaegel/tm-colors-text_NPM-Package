@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "Trackmania",
+    "Text",
+    "Colors",
+    "Style",
+    "Javascript"
+  ],
   "author": "enzo.haegel@gmail.com",
   "license": "ISC",
   "repository": {
