@@ -1,0 +1,11 @@
+{
+  "name": "@icenore/tm-colors-text",
+  "version": "1.1.0",
+  "description": "A program that take a Trackmania text with $ code and return a style for every chars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "enzo.haegel@gmail.com",
+  "license": "ISC"
+}
