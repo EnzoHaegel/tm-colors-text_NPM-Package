@@ -20,4 +20,4 @@ This return an array of Object like this:
     "style": "color: " + color + "; font-size: " + fontSize + "; font-weight: " + fontWeight + "; text-shadow: " + shadow + ";",
     "index": i
 }]
-    ```
+```
